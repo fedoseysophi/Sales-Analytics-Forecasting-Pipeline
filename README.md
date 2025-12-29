@@ -28,28 +28,3 @@ pip install pandas numpy matplotlib seaborn
 Prepare your input data:
 Place your cleaned and anonymized sales CSV in the working directory. The script expects the first column to be 'Warehouse' and the rest as date-value pairs.
 
-Run the script:
-
-bash
-python main.py
-View the generated plots:
-
-Time series sales and stock visualization
-
-7-day rolling mean trend
-
-Correlation heatmap
-
-Customization Tips
-Update the selected_warehouses list in the script to filter analysis for different warehouse codes.
-
-Adjust rolling window size as needed for trend smoothing.
-
-Extend the script for forecasting (e.g., with SARIMAX, Random Forest, or XGBoost) as per your modeling requirements.
-
-Notes
-All scripts and data are fully anonymized: there are no sensitive business names or real warehouse identifiers.
-
-Comments throughout the code are provided in English for better clarity and sharing.
-
-Works with any similar warehouse/date/sales-stock formatted data.
